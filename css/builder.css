@@ -1,0 +1,66 @@
+body{
+	font-family: "Helvetica Neue",Helvetica, Verdana, Arial, Sans;
+}
+#imageArea{
+	display:flex;
+	width: 900px;
+	flex-direction: row-wrap;
+	flex-wrap: wrap;
+}
+.imgdemo{
+		/* display:block; */
+ 
+	width: 50px;
+	height:60px;
+	border: 1px solid gray;
+
+ 
+}
+
+
+.imagedemo img {
+  /* CSS Hack will make it width 100% and height 100% */
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  /* Maintain aspect ratio */
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.label{
+	font-size:9px;
+	background-color:yellow;
+	z-index:200000;
+}
+#params{
+	background-color: #E7FFF3;
+}
+#displayWindow{
+	display: none;
+	position:fixed;
+	width: 300px;
+	height: 300px;
+	top:0;
+    left:50%;
+   /*  transform:translate(-50%, -50%); */
+	background-color: gray;
+	z-index:1000;
+}
+.opsbtn{
+	width: 200px;
+	margin-bottom: 20px;
+	background-color: #41BC12;
+	color: white;
+	font-size:18px;
+}
+.smallactionbtn{
+	background-color: #41BC12;
+	color: white;
+	font-size:14px;
+}
+.greyout{
+	background-color: #CBCBCB;
+}

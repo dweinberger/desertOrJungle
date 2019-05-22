@@ -1,0 +1,144 @@
+body{
+	font-family: "Helvetica Neue", Helvetica, Verdana, Arial, Sans;
+	font-size: 18px;
+}
+.explan{
+	color: #D54B00;
+	margin-bottom: 1em;
+	font-size: 1em;
+}
+#drop-area, #dropzone_element {
+  border: 4px dashed #ccc;
+  border-radius: 20px;
+  width: 500px;
+  height: 400px;
+  font-family: sans-serif;
+  margin-left: 0 auto;
+  /* padding: 20px; */
+  text-align: center;
+  padding-top: 15px;
+  font-size: 40px;
+  color:purple;
+  background: #FFF2B3;
+  
+}
+#drop-area.highlight {
+  border-color: D54B00;
+}
+.disclosure{
+	background-color: #F0EEAD;
+	border: 2px solid #D54B00;
+	font-size: 0.8em;
+	width: 80%;
+	padding: 8px;
+	color: #D54B00;
+	margin-bottom:15px;
+}
+#results{
+	margin-bottom: 8px;
+	width: 600px;
+}
+
+p {
+  margin-top: 0;
+}
+.my-form {
+  margin-bottom: 10px;
+}
+#gallery {
+  margin-top: 10px;
+}
+#galleries{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+#galleryfull{
+  width: 300px;
+  border: 1px solid #6C36FF;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  vertical-align: top;
+}
+#gallery50{
+	float: right;
+	width: 50px;
+  height: 50px;
+  border: 1px solid #6C36FF;
+}
+.button {
+  display: inline-block;
+  padding: 10px;
+  background: #ccc;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.button:hover {
+  background: #ddd;
+}
+#fileElem {
+  display: none;
+}
+#progress-bar{
+ 
+}
+
+.numbDisplay{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#personCtr
+{
+	background: purple;
+	color: white;
+}
+#animalCtr{
+	background: blue;
+	color: white;
+}
+#vegCtr{
+	background: green;
+	color: white;
+}
+#mineralCtr{
+	background: gray;
+	color: white;
+}
+
+img{
+	  max-width: 100%;
+    height: auto;
+}
+
+#doIt{
+	display: none;
+}
+#barchart{
+	background-color: #E7DAFF;
+	border: 1px solid #FFAEFF;
+	height: 80px;
+	width: 600px;
+}
+.bar{
+	height: 30px;
+	line-height: 35px;
+	width: 0px;
+	margin-right: 20px;
+}
+#persline{
+	background-color: purple;
+	color: white;
+}
+#aniline{
+	background-color: blue;
+	color: white;
+}
+#beachline{
+	background-color: green;
+	color: white;
+}
+#mineline{
+	background-color: gray;
+	color: white;
+}
